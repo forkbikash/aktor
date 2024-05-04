@@ -1,8 +1,9 @@
 package actor
 
 import (
-	"aktor/entities"
 	"sync"
+
+	"github.com/forkbikash/aktor/entities"
 )
 
 type TaskActorPool struct {

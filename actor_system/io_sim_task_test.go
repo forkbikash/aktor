@@ -1,9 +1,10 @@
 package actor_system
 
 import (
-	"aktor/entities"
 	"math/rand"
 	"time"
+
+	"github.com/forkbikash/aktor/entities"
 )
 
 // SimIOTask this is task to simulate IO operation.

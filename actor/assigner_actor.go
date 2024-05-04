@@ -1,9 +1,10 @@
 package actor
 
 import (
-	"aktor/entities"
-	"aktor/tracker"
 	"errors"
+
+	"github.com/forkbikash/aktor/entities"
+	"github.com/forkbikash/aktor/tracker"
 )
 
 const assignerQueueSize = 10e2

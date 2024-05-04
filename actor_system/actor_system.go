@@ -1,10 +1,11 @@
 package actor_system
 
 import (
-	"aktor/actor"
-	"aktor/entities"
-	"aktor/tracker"
 	"sync"
+
+	"github.com/forkbikash/aktor/actor"
+	"github.com/forkbikash/aktor/entities"
+	"github.com/forkbikash/aktor/tracker"
 
 	"github.com/ian-kent/go-log/log"
 )

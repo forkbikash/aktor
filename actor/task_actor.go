@@ -5,9 +5,10 @@ import (
 
 	"github.com/ian-kent/go-log/log"
 
-	"aktor/entities"
-	"aktor/tracker"
 	"sync"
+
+	"github.com/forkbikash/aktor/entities"
+	"github.com/forkbikash/aktor/tracker"
 )
 
 const taskQueueSize = 10

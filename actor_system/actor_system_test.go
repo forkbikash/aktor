@@ -1,10 +1,11 @@
 package actor_system
 
 import (
-	"aktor/actor"
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/forkbikash/aktor/actor"
 
 	"github.com/ian-kent/go-log/log"
 )

@@ -1,9 +1,10 @@
 package actor
 
 import (
-	"aktor/entities"
-	"aktor/tracker"
 	"time"
+
+	"github.com/forkbikash/aktor/entities"
+	"github.com/forkbikash/aktor/tracker"
 
 	"github.com/ian-kent/go-log/log"
 )

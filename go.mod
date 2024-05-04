@@ -1,4 +1,4 @@
-module aktor
+module github.com/forkbikash/aktor
 
 go 1.22.0
 
