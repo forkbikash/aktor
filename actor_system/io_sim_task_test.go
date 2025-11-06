@@ -20,11 +20,7 @@ func CreateNumberPrinterTask(i int) entities.Task {
 }
 
 func (t *SimIOTask) Execute() {
-	x := 0
-	if time.Now().Second() > 30 {
-		x = 100
-	}
-	duration := time.Duration(x+rand.Intn(75)) * time.Millisecond
+	// Simulate IO operation taking [0-10) milliseconds as documented
+	duration := time.Duration(rand.Intn(10)) * time.Millisecond
 	<-time.After(duration)
-
 }
