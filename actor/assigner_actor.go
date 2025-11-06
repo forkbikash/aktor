@@ -11,6 +11,7 @@ const assignerQueueSize = 10e2
 
 func CreateAssignerActor(pool *TaskActorPool, tracker *tracker.Tracker, config *Config) entities.Actor {
 	return &AssignerActor{
+		name:          "assigner",
 		closeSig:      make(chan bool),
 		tasks:         make(chan entities.Task, assignerQueueSize),
 		assignerIndex: 0,
